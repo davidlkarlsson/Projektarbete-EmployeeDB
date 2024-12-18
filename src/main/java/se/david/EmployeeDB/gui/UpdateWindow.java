@@ -20,6 +20,7 @@ public class UpdateWindow {
         updateFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         JPanel panel = new JPanel(new GridLayout(6, 2, 5, 5));
+        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         JLabel roleIdLabel = new JLabel("Role ID:");
         JTextField roleIdTextField = new JTextField(15);
