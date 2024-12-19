@@ -91,6 +91,7 @@ public class InsertWindow {
         });
 
         insertFrame.setVisible(true);
+        //Centrerar fönstret (null)
         insertFrame.setLocationRelativeTo(null);
 
     }
